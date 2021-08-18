@@ -2,19 +2,6 @@
 
 Implementation of the paper "End to End Learning for Self-Driving Cars"
 
-## Citing
-
-If you find this code useful in your research, please consider citing the blog:
-
-```
-@misc{sagardriving,
-  Author = {Abhinav Sagar},
-  Title = {How to Train Your Self Driving Car Using Deep Learning},
-  Year = {2019},
-  Journal = {Towards Data Science},
-}
-```
-
 ## IMPORTANT
 
 Absolutely, under NO circumstance, should one ever pilot a car using computer vision software trained with this code (or any home made software for that matter).
@@ -32,12 +19,6 @@ Train a end-to-end deep learning model that would let a car drive itself around 
 In this project Udacity driving simulator has been used which has two different tracks. One of them was used for collecting training data, and the other one — never seen by the model — as a substitute for test set.
 
 The driving simulator would save frames from three front-facing "cameras", recording data from the car's point of view; as well as various driving statistics like throttle, speed and steering angle. We are going to use camera data as model input and expect it to predict the steering angle in the [-1, 1] range.
-
-## Results
-
-<p align="center">
-  <img src="run.gif" alt="Driving"/>
-</p>
 
 ## References
 
